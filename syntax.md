@@ -2,36 +2,55 @@
 > 一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行 （空行的定义是显示上看起来像是空的，便会被视为空行。比方说，若某一行只包含空格 和制表符，则该行也会被视为空行）。普通段落不该用空格或制表符来缩进。  
 > 如果想要依赖 Markdown 来插入 `<br />` 标签的话，在插入处先按入两个以上的空 格然后回车。
 
+>       AAA BBB 
+>       CCC  
+>       DDD
 AAA BBB 
 CCC  
 DDD
 
->如果要标记一小段行内代码，你可以用反引号把它包起来(`)
+> 如果要标记一小段行内代码，你可以用反引号把它包起来(`)
+>
+>       I love C#,C# Programing language output "HelloWorld",`Console.WriteLine("HelloWorld");`.So beautiful!
 
 I love C#,C# Programing language output "HelloWorld",`Console.WriteLine("HelloWorld");`.So beautiful!
 > 如果要在代码区段内插入反引号，你可以用多个反引号来开启和结束代码区段：
+>
+>       Example as follows: ``There is a literal backtick (`) here.`` Interesting!  
+>       A single backtick in a code span: `` ` ``  
+>       A backtick-delimited string in a code span: `` `foo` ``   
 
 Example as follows: ``There is a literal backtick (`) here.`` Interesting!  
 A single backtick in a code span: `` ` ``  
 A backtick-delimited string in a code span: `` `foo` ``   
 
 > Markdown 使用星号（*）和底线（_）作为标记强调字词的符号，被 * 或 _ 包围的字词会 被转成用 \<em> 标签包围，用两个 * 或 _ 包起来的话，则会被转成 \<strong>
+>
+>       *ABC*
+>       _ABC_
+>       **ABC**
+>       __ABC__
 
-*ABC*
-
-_ABC_
-
-**ABC**
-
+*ABC*  
+_ABC_  
+**ABC**  
 __ABC__
 
+
 # 特殊字符
+>       &copy;  
+>       &gt;  
+>       &lt;  
+>       &amp;  
+>       AT&amp;T 
+>       4&lt;5
+
 &copy;  
 &gt;  
 &lt;  
 &amp;  
-AT&amp;T AT&T  
-4<5 4&lt;5
+AT&amp;T   
+4&lt;5
 
 
 # 标题
@@ -39,12 +58,21 @@ AT&amp;T AT&T
 >   Markdown 支持两种标题的语法，类 Setext 和类 atx 形式。  
 >   &nbsp; 类 Setext 形式是用底线的形式，利用 =（最高阶标题）和 -（第二阶标题   
 >   &nbsp; 类 Atx 形式是在行首插入1到6个# ，对应到标题1到6
+>
+>       AAA
+>       ===
+>       BBB
+>       ---
 
 AAA
 ===
 BBB
 ---
 
+>       # 这是一级标题
+>       ## 这是二级标题
+>       ### 这是三级标题
+>       #### 这是四级标题
 
 # 这是一级标题
 ## 这是二级标题
