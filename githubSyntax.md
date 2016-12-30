@@ -34,9 +34,9 @@ MvcSimplePager#1
 WeihanLi/MvcSimplePager#1
 
 ## EMOJI
-> To see a list of every image we support, check out [www.emoji-cheat-sheet.com](www.emoji-cheat-sheet.com)
+> To see a list of every image we support, check out [www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
 
-Github 扩展的 markdown 语法支持 emoji ，你可以在  [www.emoji-cheat-sheet.com](www.emoji-cheat-sheet.com) 上看到一个
+Github 扩展的 markdown 语法支持 emoji ，你可以在  [www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com) 上看到一个
 完整的 Github markdown 语法支持的 emoji 图片
 
 ```
