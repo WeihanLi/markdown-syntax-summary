@@ -6,4 +6,3 @@
 * [GithubMarkdownSyntax](githubSyntax.md)
 
 作者水平有限，若有疏漏还望提醒。
-### Contact me:<weihanli@outlook.com>
